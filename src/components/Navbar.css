@@ -1,11 +1,10 @@
 .acecLogo {
   position: relative;
-  width: 100px;
-  top: 12px;
+  width: 142px;
 }
 
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  background: white;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -56,7 +55,7 @@
 }
 
 .nav-links {
-  color: #fff;
+  color: rgb(0, 189, 214);
   display: flex;
   align-items: center;
   text-decoration: none;
