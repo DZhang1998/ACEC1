@@ -13,6 +13,9 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  border-bottom: rgb(0, 189, 214);
+  border-width: 2px;
+  border-color: rgb(0, 189, 214);
 }
 
 .navbar-container {
@@ -21,6 +24,10 @@
   align-items: center;
   height: 80px;
   max-width: 1500px;
+  border-bottom: rgb(0, 189, 214);
+  border-width: 2px;
+  border-color: rgb(0, 189, 214);
+  
 }
 
 .navbar-logo {

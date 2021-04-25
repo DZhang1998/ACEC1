@@ -1,0 +1,62 @@
+.carContainer {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  background-color: rgb(36, 36, 36);
+  border-top: rgb(0, 189, 214);
+  border-width: 2px;
+}
+
+.slider {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 48%;
+  right: 32px;
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.75);
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 48%;
+  left: 32px;
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.75);
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  background-color: white;
+  transition-duration: 2s ease;
+}
+
+.slide.active {
+  height: 100%;
+  opacity: 1;
+  transition-duration: 2s;
+  object-fit: cover;
+}

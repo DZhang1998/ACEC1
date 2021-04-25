@@ -10,7 +10,7 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-            <img src="https://i.ibb.co/ZMH141m/aceclogo-Invert.png" class="acecLogo"></img>
+              <img src="https://i.ibb.co/ZMH141m/aceclogo-Invert.png" class="acecLogo"></img>
             </Link>
           </div>
           <small class='website-rights'>ACEC ©2020</small>
